@@ -1,6 +1,6 @@
 # Audio Tagging with Noisy Labels and Minimal Supervision using InceptionV3 with CNN
 
-This repository contains the implementation and results of an audio tagging task, inspired by the "Freesound Audio Tagging 2019" challenge hosted on Kaggle. The project was conducted as part of the course **CSC 5351 01** at **Al Akhawayn University in Ifrane**. It explores audio classification using multi-label tagging in the presence of noisy and minimally supervised data.
+This repository contains the implementation and results of an audio tagging task, inspired by the "Freesound Audio Tagging 2019" challenge hosted on Kaggle. The project was conducted as part of the course **CSC 5351 01** at **Al Akhawayn University in Ifrane**. It explores audio classification using audio tagging in the presence of noisy and minimally supervised data.
 
 ## Project Overview
 
