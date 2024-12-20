@@ -70,18 +70,6 @@ The training process consists of three stages:
 
 During validation, 20 test-time augmentations (TTA) are applied for each model to stabilize predictions.
 
-
-## Implementation
-
-The project is organized into the following scripts:
-
-1. **`config.py`**: Contains configurations such as paths, audio processing parameters, and training hyperparameters.
-2. **`data_preprocessing.py`**: Includes functions for loading, preprocessing, and augmenting audio data into Mel spectrograms.
-3. **`models.py`**: Defines the custom convolutional neural network (CNN) and integrates an InceptionV3-based architecture.
-4. **`train.py`**: Implements the training and validation loops, including LWLRAP (Label-Weighted Label Ranking Average Precision) computation.
-5. **`evaluate.py`**: Performs model evaluation using validation data and test-time augmentation (TTA).
-6. **`main.py`**: Provides an entry point to train and evaluate the model sequentially.
-
 ## Results performance
 
 The primary evaluation metric for the project is **LWLRAP**. The best model achieved the following:
@@ -96,6 +84,17 @@ The primary evaluation metric for the project is **LWLRAP**. The best model achi
 | InceptionV3 1ch | Noisy + Curated | 0.86      | 0.85      |
 
 The ensemble of these models with equal weights achieved further improvements in both CV and LB scores.
+
+## Implementation
+
+The project is organized into the following scripts:
+
+1. **`config.py`**: Contains configurations such as paths, audio processing parameters, and training hyperparameters.
+2. **`data_preprocessing.py`**: Includes functions for loading, preprocessing, and augmenting audio data into Mel spectrograms.
+3. **`models.py`**: Defines the custom convolutional neural network (CNN) with Attention mechanism and integrates an InceptionV3-based architecture.
+4. **`train.py`**: Implements the training and validation loops, including LWLRAP (Label-Weighted Label Ranking Average Precision) computation.
+5. **`evaluate.py`**: Performs model evaluation using validation data and test-time augmentation (TTA).
+6. **`main.py`**: Provides an entry point to train and evaluate the model sequentially.
 
 ## How to Reproduce Evaluation 
 
