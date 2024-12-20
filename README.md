@@ -1,4 +1,4 @@
-# Audio Tagging with Noisy Labels and Minimal Supervision
+# Audio Tagging with Noisy Labels and Minimal Supervision using InceptionV3 with CNN
 
 This repository contains the implementation and results of an audio tagging task, inspired by the "Freesound Audio Tagging 2019" challenge hosted on Kaggle. The project was conducted as part of the course **CSC 5351 01** at **Al Akhawayn University in Ifrane**. It explores audio classification using multi-label tagging in the presence of noisy and minimally supervised data.
 
@@ -17,6 +17,9 @@ The dataset used is the **FSDKaggle2019** dataset, comprising:
 - **Noisy subset**: 19,815 clips, ~80 hours, automatic labels with potential noise.
 
 For detailed dataset information, visit the [Freesound Audio Tagging 2019 Kaggle Page](https://www.kaggle.com/c/freesound-audio-tagging-2019).
+
+![audio_spectrogram_batch](https://github.com/user-attachments/assets/58ac10db-69cd-4781-aa0a-d2e1cfe242eb)
+
 
 ## Implementation
 
