@@ -114,7 +114,7 @@ The project is organized into the following scripts:
 * Curated data: Store in the directory defined by DATA_PATH.
 * Noisy data: Store in the same directory.
 
-4. Preprocess the data (if applicable):
+4. Preprocess the data:
    ```bash
    python data_preprocessing.py
 
