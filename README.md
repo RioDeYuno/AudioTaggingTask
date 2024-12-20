@@ -34,7 +34,7 @@ The project is organized into the following scripts:
 The primary evaluation metric for the project is **LWLRAP**. The best model achieved the following:
 - **Training Loss**: 0.217
 - **Validation Loss**: 0.242
-- **Average LWLRAP**: 0.8924
+- **Average LWLRAP**: 0.8824
 
 Per-class LWLRAP metrics and weights are stored for further analysis.
 
