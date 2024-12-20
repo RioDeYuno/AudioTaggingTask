@@ -31,8 +31,8 @@ We employ Log-Mel spectrogram representations of audio data, generated using the
 
 ![audio_spectrogram_batch](https://github.com/user-attachments/assets/58ac10db-69cd-4781-aa0a-d2e1cfe242eb)
 
-## Data Augmentation
-We implemented several augmentation techniques:
+## Data Augmentation using SOX
+We implemented SOX augmentation techniques:
 - **Pitch Shift**: Alters the pitch while preserving the class.
   
 - **Fade**: Adds fade-in and fade-out effects.
