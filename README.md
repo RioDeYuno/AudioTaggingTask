@@ -2,7 +2,8 @@
 
 This repository contains the implementation and results of an audio tagging task, inspired by the "Freesound Audio Tagging 2019" challenge hosted on Kaggle. The project was conducted as part of the course **CSC 5351 01** at **Al Akhawayn University in Ifrane**. It explores audio classification using CNN to depict spectrograms in the presence of noisy and minimally supervised data.
 
-## Project Overview
+## Kaggle Task Overview
+![lala](https://github.com/user-attachments/assets/4fdcd8c3-3b49-4f4a-9c40-235db8e59795)
 
 The task aims to classify audio clips into one or more of 80 everyday sound categories defined by the AudioSet Ontology. The dataset includes:
 - A small manually-labeled curated dataset.
