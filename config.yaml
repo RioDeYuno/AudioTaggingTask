@@ -1,0 +1,14 @@
+model:
+  name: Final_model.safetensors
+  original_name: ensemble_cnn_inceptionv3.pth
+  type: EnsembleCNN-InceptionV3
+  nb_params: 30000000  
+  mAP: 0.500           
+  spectrograms:
+    time_dim: 128       
+    freq_dim: 128       
+  stem:
+    time_dim: 64
+    freq_dim: 64
+  embedding_dim: 1024 
+
