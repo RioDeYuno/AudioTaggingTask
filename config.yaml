@@ -3,7 +3,7 @@ model:
   original_name: ensemble_cnn_inceptionv3.pth
   type: EnsembleCNN-InceptionV3
   nb_params: 30000000  
-  mAP: 0.500           
+  lwlrap:: 0.88           
   spectrograms:
     time_dim: 128       
     freq_dim: 128       
@@ -12,3 +12,4 @@ model:
     freq_dim: 64
   embedding_dim: 1024 
 
+description: "This model is an ensemble of CNNs and Inceptionv3, trained for audio tagging tasks using the LWLRAP metric."
