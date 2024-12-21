@@ -16,7 +16,7 @@ pip install torch transformers numpy scipy
 
 ---
 
-## Files Description
+## Files Description in OneDrive
 1. **`Final_Model.safetensors`**: Contains the trained model weights.
 2. **`config.yaml`**: Configuration file describing the model architecture and settings.
 
@@ -82,4 +82,4 @@ pip install torch transformers numpy scipy
 
 ---
 
-This guide provides a concise path to evaluate the model using the preprocessed Freesound dataset. Adjust file paths and code snippets to match your environment.
+
