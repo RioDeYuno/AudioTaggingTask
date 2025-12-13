@@ -14,8 +14,6 @@ This repository implements a **scalable audio tagging pipeline** designed to han
 - Audio Processing: Librosa, SoX
 - Deep Learning: PyTorch, Torchvision
 - Data Handling: NumPy, Pandas
-- Experimentation: Cross-validation, TTA
-- Evaluation: LWLRAP
 
 ## System Architecture
 | Stage | Description |
