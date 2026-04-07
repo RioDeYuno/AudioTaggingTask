@@ -1,4 +1,4 @@
-# End-to-End Audio Tagging Pipeline with Noisy Labels (CNN & InceptionV3) 
+# End-to-End Audio Recognition  Pipeline (Using Deep Learning AI) 
 
 This repository implements a **scalable audio tagging pipeline** designed to handle noisy and weakly-labeled data, inspired by the "Freesound Audio Tagging 2019" [1] challenge hosted on Kaggle **(co-hosted by Google Research)**. The project was conducted and supervised on the course **CSC 5351 01** at **Al Akhawayn University in ifrane** with an emphasis on real-world engineering constraints.
 
